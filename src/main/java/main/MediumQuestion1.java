@@ -31,7 +31,7 @@ class SeniorCitizenCustomer extends Customer {
 	}
 	
 	Double getBillAmount(Double amount) {
-		Double bill =null; //edit as per the question
+		Double bill =null; //edit as per the questions
 		bill=(amount*90)/100;//Write your code here of required
 		return bill;
 	}
